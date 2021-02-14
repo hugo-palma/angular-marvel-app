@@ -5,7 +5,7 @@ const response = {
   "attributionText": "Data provided by Marvel. © 2021 MARVEL",
   "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2021 MARVEL</a>",
   "etag": "a25a72c187c8d172ce5734a2e25f740d58dfc228",
-  "data": {
+  "data": `{
     "offset": 0,
     "limit": 20,
     "total": 1493,
@@ -3624,6 +3624,6 @@ const response = {
         ]
       }
     ]
-  }
+  }`
 }
 export default response;

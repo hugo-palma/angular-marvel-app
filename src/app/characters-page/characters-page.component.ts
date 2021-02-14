@@ -8,11 +8,14 @@ import IData from '../types/IData';
   styleUrls: ['./characters-page.component.css']
 })
 export class CharactersPageComponent implements OnInit {
-  result: IData = JSON.parse(response.data);
+  data: IData;
+  results: IResult[];
 
   constructor() { }
 
   ngOnInit(): void {
+    this.data = JSON.parse(response.data)
+    this.results = this.data.results;
+    console.log(this.results);
   }
-
 }
